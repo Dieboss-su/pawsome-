@@ -14,8 +14,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <script type="module" crossorigin src="/pawsome-porject/assets/main-0860958c.js"></script>
-    <link rel="stylesheet" href="/pawsome-porject/assets/main-cbae9512.css">
+    <script type="module" crossorigin src="/pawsome-porject/assets/main-8bfce6d5.js"></script>
+    <link rel="stylesheet" href="/pawsome-porject/assets/main-08857330.css">
   </head>
   <body>
     <header class="mx-auto" style="max-width: 1440px">
@@ -86,7 +86,35 @@
       </div>
     </div>
   </nav>
-</header>    <main style="padding-top: 74px">
+</header> <div
+  id="buycar"
+  class="bottom-0 bg-neutral-0 position-fixed w-100 d-flex justify-content-center py-4 px-6 d-md-none shoppingCart-shadow"
+  style="z-index: 100"
+>
+  <div
+    class="py-3 d-flex me-6 bg-primary-300 w-100 rounded-full justify-content-center"
+  >
+    <a class="fw-medium fs-3 text-neutral-0" href="checkout.html">
+      <span class="align-bottom material-symbols-outlined me-2"
+        >shopping_cart</span
+      >購物車(6)
+    </a>
+  </div>
+  <div
+    class="d-flex align-items-center justify-content-center"
+    style="min-width: 44px; min-height: 44px"
+  >
+    <a href="#">
+      <img
+        class="buy-car-shadow rounded-circle"
+        style="width: 44px; height: 44px; object-fit: contain"
+        src="data:image/png;base64,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"
+        alt="貓頭"
+      />
+    </a>
+  </div>
+</div>
+    <main style="padding-top: 74px">
       <div class="container">
         <!-- 麵包屑 -->
         <section class="py-7">
@@ -259,67 +287,69 @@
         <section class="px-lg-6">
           <div class="row g-5">
             <div class="col-6 col-md-3">
-              <div class="sm-card">
-                <div
-                  class="position-relative border-1 border-bottom border-neutral-100"
-                >
-                  <img
-                    src="/pawsome-porject/assets/Cat-30-200e1624.png"
-                    alt="歐睿健 六種鮮魚無穀配方 85%優質肉含量 貓顆粒乾糧"
-                  />
-                </div>
-                <div class="p-3 p-md-4 pb-5 card-main-height">
-                  <h3 class="catStapleFood-card-h3 mb-2 mb-lg-4">
-                    歐睿健 六種鮮魚無穀配方 85%優質肉含量 貓顆粒乾糧
-                  </h3>
-                  <span
-                    class="mb-3 mb-md-5 d-flex align-items-center text-neutral-600 fs-1 fs-md-2"
-                    >4.8
+              <div class="catStapleFood-card">
+                <a href="production.html">
+                  <div
+                    class="position-relative border-1 border-bottom border-neutral-100"
+                  >
                     <img
-                      class="ms-1 ms-md-2 me-md-2"
-                      style="width: 16px; height: 16px"
-                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE0SURBVHgB7VXLdcIwEJz1LbekA9NB0kFyyeeUlwrilJAK4lSQdABUADfgBFQAHaAO8I0bYpDABuM/usG8t7K1K+3YI+8auBjoAQI9wlIPseD1s+o+qbKIyX14mEHj1joQcXyQN6iyvV5p8h6TCsZxcvtYxmdi5xLgBn8c/YyIz1i7ZHe+RJTlkdGt1gGK0eHbdSnXpJRgl/SdFhxJUg2KNkmTyUHykLMfuIDGL0nCY4Ih3Q4hrzZ3csiCOdxB7W8SgjW+4Qpe8mHEBOZgBP84F4JQnjFNpimwDWwr9h7NoKh969BxWmhrfJA2QhNoPKVdJwSmv+hGBCqrN2W3CqldZMgrTK/O4kJIHQKHyJMoyvHPCwpSVSewRad2RB3T/Fa4kxf+ZGiUsEX7or8frxPbe66ojQ0w1FPfq8l9kAAAAABJRU5ErkJggg=="
-                      alt="黃色星號"
-                    /><span class="fs-1 d-none d-xxl-block text-neutral-600"
-                      >( 1000+ 則評價)</span
-                    ><span class="px-2">‧</span> <span class="me-2">已售</span
-                    ><span class="">3.2萬</span>
-                  </span>
-                  <div class="d-flex align-items-center">
+                      src="/pawsome-porject/assets/Cat-30-200e1624.png"
+                      alt="歐睿健 六種鮮魚無穀配方 85%優質肉含量 貓顆粒乾糧"
+                    />
+                  </div>
+                  <div class="p-3 p-md-4 pb-5 card-main-height">
+                    <h3 class="catStapleFood-card-h3 mb-2 mb-lg-4">
+                      歐睿健 六種鮮魚無穀配方 85%優質肉含量 貓顆粒乾糧
+                    </h3>
+                    <span
+                      class="mb-3 mb-md-5 d-flex align-items-center text-neutral-600 fs-1 fs-md-2"
+                      >4.8
+                      <img
+                        class="ms-1 ms-md-2 me-md-2"
+                        style="width: 16px; height: 16px"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE0SURBVHgB7VXLdcIwEJz1LbekA9NB0kFyyeeUlwrilJAK4lSQdABUADfgBFQAHaAO8I0bYpDABuM/usG8t7K1K+3YI+8auBjoAQI9wlIPseD1s+o+qbKIyX14mEHj1joQcXyQN6iyvV5p8h6TCsZxcvtYxmdi5xLgBn8c/YyIz1i7ZHe+RJTlkdGt1gGK0eHbdSnXpJRgl/SdFhxJUg2KNkmTyUHykLMfuIDGL0nCY4Ih3Q4hrzZ3csiCOdxB7W8SgjW+4Qpe8mHEBOZgBP84F4JQnjFNpimwDWwr9h7NoKh969BxWmhrfJA2QhNoPKVdJwSmv+hGBCqrN2W3CqldZMgrTK/O4kJIHQKHyJMoyvHPCwpSVSewRad2RB3T/Fa4kxf+ZGiUsEX7or8frxPbe66ojQ0w1FPfq8l9kAAAAABJRU5ErkJggg=="
+                        alt="黃色星號"
+                      /><span class="fs-1 d-none d-xxl-block text-neutral-600"
+                        >( 1000+ 則評價)</span
+                      ><span class="px-2">‧</span> <span class="me-2">已售</span
+                      ><span class="">3.2萬</span>
+                    </span>
+                    <div class="d-flex align-items-center">
+                      <button
+                        type="button"
+                        class="me-2 catStapleFood-card-btn fs-1 fs-md-2"
+                      >
+                        1kg
+                      </button>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between ps-3">
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-md-center"
+                    >
+                      <span
+                        class="text-neutral-400 fs-1 text-decoration-line-through me-md-2"
+                        >$109</span
+                      >
+                      <span class="text-primary-300 fw-medium">$99</span>
+                    </div>
                     <button
                       type="button"
-                      class="me-2 catStapleFood-card-btn fs-1 fs-md-2"
+                      class="mt-1 p-4 border-0 bg-neutral-0"
+                      data-bs-toggle="modal"
+                      data-bs-target="#sm-shoop-Modal"
                     >
-                      1kg
+                      <img
+                        src="/pawsome-porject/assets/Filled __No-1-db1fabbb.svg"
+                        alt=""
+                      />
                     </button>
                   </div>
-                </div>
-                <div class="d-flex justify-content-between ps-3">
-                  <div
-                    class="d-flex flex-column flex-md-row align-items-md-center"
-                  >
-                    <span
-                      class="text-neutral-400 fs-1 text-decoration-line-through me-md-2"
-                      >$109</span
-                    >
-                    <span class="text-primary-300 fw-medium">$99</span>
-                  </div>
-                  <button
-                    type="button"
-                    class="mt-1 p-4 border-0 bg-neutral-0"
-                    data-bs-toggle="modal"
-                    data-bs-target="#sm-shoop-Modal"
-                  >
-                    <img
-                      src="/pawsome-porject/assets/Filled __No-1-db1fabbb.svg"
-                      alt=""
-                    />
-                  </button>
-                </div>
+                </a>
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -385,7 +415,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -445,7 +475,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -505,7 +535,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -565,7 +595,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -625,7 +655,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -697,7 +727,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -757,7 +787,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -829,7 +859,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -905,7 +935,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -965,7 +995,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1025,7 +1055,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1085,7 +1115,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1137,7 +1167,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1189,7 +1219,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1241,7 +1271,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1293,7 +1323,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1345,7 +1375,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1397,7 +1427,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1449,7 +1479,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1501,7 +1531,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1553,7 +1583,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1605,7 +1635,7 @@
               </div>
             </div>
             <div class="col-6 col-md-3">
-              <div class="sm-card">
+              <div class="catStapleFood-card">
                 <div
                   class="position-relative border-1 border-bottom border-neutral-100"
                 >
@@ -1658,7 +1688,61 @@
             </div>
           </div>
         </section>
-        <section class="py-7"></section>
+        <section class="py-7 d-flex justify-content-center">
+          <ul class="catStapleFood-page-nav nav text-center" style="gap: 8px">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="#"
+                onclick="this.blur(); return false;"
+                ><span class="material-symbols-outlined">
+                  chevron_left
+                </span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="#"
+                onclick="this.blur(); return false;"
+                >1</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="this.blur(); return false;"
+                >2</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="this.blur(); return false;"
+                >3</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="this.blur(); return false;"
+                >...</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="this.blur(); return false;"
+                >22</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="#"
+                onclick="this.blur(); return false;"
+                ><span class="material-symbols-outlined">
+                  chevron_right
+                </span></a
+              >
+            </li>
+          </ul>
+        </section>
       </div>
     </main>
     <div class="mx-auto p-6 py-md-7 px-md-11 bg-neutral-600" style="max-width: 1440px;">
