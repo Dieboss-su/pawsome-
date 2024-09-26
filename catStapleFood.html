@@ -14,8 +14,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <script type="module" crossorigin src="/pawsome-porject/assets/main-6dc805fc.js"></script>
-    <link rel="stylesheet" href="/pawsome-porject/assets/main-a029d8e2.css">
+    <script type="module" crossorigin src="/pawsome-porject/assets/main-72028d45.js"></script>
+    <link rel="stylesheet" href="/pawsome-porject/assets/main-6f27cfad.css">
   </head>
   <body>
     <header class="mx-auto " style="max-width: 1440px">
@@ -375,7 +375,7 @@
                     ><span class="px-2">‧</span> <span class="me-2">已售</span
                     ><span class="">2.2萬</span>
                   </span>
-                  <div class="d-flex align-items-center">
+                  <div class="btn-group d-flex align-items-center">
                     <button
                       type="button"
                       class="me-2 catStapleFood-card-btn fs-1 fs-md-2 active"
@@ -681,7 +681,7 @@
                     ><span class="px-2">‧</span> <span class="me-2">已售</span
                     ><span class="">2萬</span>
                   </span>
-                  <div class="d-flex align-items-center">
+                  <div class="btn-group d-flex align-items-center">
                     <button
                       type="button"
                       class="me-2 catStapleFood-card-btn fs-1 fs-md-2 active"
@@ -813,7 +813,7 @@
                     ><span class="px-2">‧</span> <span class="me-2">已售</span
                     ><span class="">1.5萬</span>
                   </span>
-                  <div class="d-flex align-items-center">
+                  <div class="btn-group d-flex align-items-center">
                     <button
                       type="button"
                       class="me-2 catStapleFood-card-btn fs-1 fs-md-2 active"
@@ -885,7 +885,7 @@
                     ><span class="px-2">‧</span> <span class="me-2">已售</span
                     ><span class="">2.5萬</span>
                   </span>
-                  <div class="d-flex align-items-center">
+                  <div class="btn-group d-flex align-items-center">
                     <button
                       type="button"
                       class="me-2 catStapleFood-card-btn fs-1 fs-md-2 active"
@@ -1908,6 +1908,26 @@
         thumbs: {
           swiper: swiper,
         },
+      });
+    </script>
+    <script>
+      // 獲取所有按鈕組
+      const btnGroups = document.querySelectorAll(".btn-group");
+
+      // 遍歷每組按鈕
+      btnGroups.forEach((group) => {
+        // 獲取每組內的所有按鈕
+        const buttons = group.querySelectorAll(".catStapleFood-card-btn");
+
+        // 遍歷每個按鈕，為其添加點擊事件
+        buttons.forEach((button) => {
+          button.addEventListener("click", function () {
+            // 先移除該組內所有按鈕的 active 類
+            buttons.forEach((btn) => btn.classList.remove("active"));
+            // 為當前被點擊的按鈕添加 active 類
+            this.classList.add("active");
+          });
+        });
       });
     </script>
   </body>
